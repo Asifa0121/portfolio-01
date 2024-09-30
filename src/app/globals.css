@@ -2,26 +2,34 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+
+
+.protfolio{
+  display: flex;
+  background-color:rgb(158, 77, 77)
+}
+.about{
+font-size: 18px;
+color: lightblue;
+font-weight: 900;
+font-family: Georgia, 'Times New Roman', Times, serif;
+padding: 7%;
+justify-content: center;
+margin: 30px;
+font-style: italic;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+.image{
+  padding: 7%;
+   border-radius: 100px;
+  width: 1200px;
+  margin-right: 10%;
+  margin-top: 2px;
+
+
 }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+.thank{
+  font-size: 22px;
+  text-align: right;
 }
