@@ -7,7 +7,7 @@ export default function Home(){
       <div className="about">
       <p>  Hello! This is <b>Asifa.</b> <br/>
   I am a student learning Next.js, excited to build fast and dynamic web applications.
- I'm focused on mastering server-side rendering and routing to create great user experiences.</p><br/>
+ I am focused on mastering server-side rendering and routing to create great user experiences.</p><br/>
  <p className="thank">Thank you!</p>
 
       </div>
