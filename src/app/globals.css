@@ -6,16 +6,16 @@
 
 .protfolio{
   display: flex;
-  background-color:rgb(158, 77, 77)
+  background-color:rgb(30, 39, 39)
 }
 .about{
-font-size: 18px;
-color: lightblue;
-font-weight: 900;
+font-size: 20px;
+color: white;
+font-weight: 700;
 font-family: Georgia, 'Times New Roman', Times, serif;
-padding: 7%;
+padding: 10%;
 justify-content: center;
-margin: 30px;
+margin: 15px;
 font-style: italic;
 }
 
@@ -33,3 +33,73 @@ font-style: italic;
   font-size: 22px;
   text-align: right;
 }
+
+.header{
+  background-color: rgb(228, 102, 56);
+  display: flex;
+ justify-content: right;
+ 
+}
+
+.header-button{
+  color: white;
+  display: flex;
+ margin-left: 20px;
+ font-family: 'Times New Roman', Times, serif;
+ font-size: 25px;
+ margin-right: 20px;
+ 
+
+}
+
+.list{
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+  text-align: center;
+  align-content: center;
+ 
+}
+
+.footer{
+  background-color: rgb(228, 102, 56);
+  
+}
+
+.footer-para{
+  
+  color: white;
+ display: flex;
+ font-family: 'Times New Roman', Times, serif;
+ font-size: 25px;
+ margin-left: 20px;
+ 
+}
+
+.about-parent{
+  background-color:rgb(30, 39, 39);
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 18px;
+  padding: 10px;
+  
+}
+h3{
+  font-size: 20px;
+  color: whitesmoke
+}
+
+.about-para{
+  font-size: 13px;
+  
+}
+
+.contact{
+  background-color:rgb(30, 39, 39);
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 13px;
+  padding: 10px;
+   background-color:rgb(30, 39, 39);
+}
+

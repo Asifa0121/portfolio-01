@@ -1,9 +1,12 @@
 import Image from "next/image";
 import profile from "@/app/profile.jpeg"
 
+
 export default function Home(){
   return(
+    
     <div className="protfolio">
+    
       <div className="about">
       <p>  Hello! This is <b>Asifa.</b> <br/>
   I am a student learning Next.js, excited to build fast and dynamic web applications.
